@@ -1,0 +1,10 @@
+# Which step felt least clear? #
+Of all the steps we performed for this lab it is, funnily enough, the very first step that I found the most irksome.
+While cloning a repo isn't by itself any difficult doing so via the terminal was not something I had really done prior to this lab.
+Often I would simply use VS Code's shortcut to clone the repo to the desired location which in this instance wasn't a possibility.
+I lie, it was, but it would require me to use "cd ..." to reach the folder I store all my TTPR labs and as a programmer I am, above all things, supremely adverse to any sort of labor, this is why computer's exist after all.
+So I decided to try and use Git Bash instead for the entirety of this lab, it would serve as practice if I need to use it in the future and there is some small humor to be found in using a simple console window to complete more complex tasks.
+
+# Why do we fork instead of pushing directly to the instructors’ repo? # 
+Because it would be chaos. The instructor would have a difficult time finding which student's code is which if the myriad of push commands did not create merge conflicts. At best a student's hard work would be overwritten by another's and at worst the instructor's own instructions and necessary files would be destroyed by a careless mistake.
+Thus it is important for students to create forks of the instructor's repo, which should serve as a master template, that each can make changes to that branch unmolested by the carelessness of others. In this way we can use a pull request as a sort of form submission, akin to students turning in test papers, that the instructor can look over the forked repo without their own base repo being unceremoniously altered and perhaps use it as a point of comparison to ensure the student's work fulfilled the curriculum of the assignment.
